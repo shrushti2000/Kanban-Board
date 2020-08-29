@@ -115,8 +115,8 @@ function updateDOM() {
 
 //Update Item - Delete if necessary,or update Array value
 function updateItem(id,column){
-  const SelectedArray=listArrays[column];
-  console.log(SelectedArray);
+  const selectedArray=listArrays[column];
+  console.log(selectedArray);
   const selectedColumnEl=listColumns[column].children;
  if(!dragging){
   if(!selectedColumnEl[id].textContent){

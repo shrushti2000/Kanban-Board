@@ -14,7 +14,7 @@ html {
 
 body {
   margin: 0;
-  background: url("./trees.jpg");
+  background: url("./laptopbook.jpg");
   background-size: cover;
   background-position: 50% 60%;
   background-attachment: fixed;
@@ -26,6 +26,8 @@ body {
 h1 {
   letter-spacing: 2px;
   text-shadow: 2px 2px 5px black;
+  
+
 }
 
 .main-title {
@@ -118,6 +120,7 @@ ul {
 
 .header h1 {
   font-size: 1.25rem;
+  font-family: 'Yrsa', serif;
 }
 
 /* Drag and Drop */
